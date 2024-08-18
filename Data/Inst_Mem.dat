@@ -1,0 +1,19 @@
+@0
+FFC4A303  // Address 0x0000: lw x6, -4(x9)
+@1
+0064A423  // Address 0x0004: sw x6, 8(x9)
+@2
+0062E233  // Address 0x0008: or x4, x5, x6
+@3
+00420863  // Address 0x000C: beq x4, x4, 32 (this will incerement the pc by 16 which incerements the address of memory by 4)
+
+
+@7         //address 0x001C : jal x10 , 128 (this will incerement the PC by 64 which will inceremnt the memory address by 16)
+0400056F
+
+
+
+
+@17       // Address 0x0080: addi x1, x0, 8
+00800093  
+
