@@ -1,0 +1,8 @@
+@0            //x0 will always have the value of zero
+00000000
+@5            //x5 will always have the value of 6 initially
+00000006
+@9             //x9 will initially have the value of 4 to add it to -4 (immediate) so the address will be zero
+00000004                             //and the address zero has the value 9 which will be assigned to x6
+                                     //look at assembly_scenario.asm to follow
+
